@@ -12,7 +12,7 @@ class Solution:
                 count += 1
 
             # If we come across close parentheses, we check if it is a match
-            elif char ==')' and count > 0:
+            elif char == ')' and count > 0:
                 result.append(char)
                 count -= 1
 
